@@ -20,7 +20,7 @@ jobs:
 
     # Runs a single command using the runners shell
     - name: Will Install Node on our vm as its requirement of surge
-      uses: action/setup-node@v2-beta
+      uses: actions/setup-node@v2-beta
       with:
         node-version: 12
 
